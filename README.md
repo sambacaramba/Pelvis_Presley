@@ -45,6 +45,7 @@ Example Point 9 (Dorsal Point of the Ischial Ramus)
 Example Point 10 (Opposite Caudal Tip of the Obturator Foramen)
 
 ![Example Point 11](https://github.com/user-attachments/assets/1edb7a55-2088-4956-bc4a-6c1ac941c95e)
+Example Output Image
 Example Point 11 (Opposite Ischial Tuberosity)
 
 ![Result Image](https://github.com/user-attachments/assets/c58640b0-55f5-4c90-b7da-3c5b00cf7b94)
