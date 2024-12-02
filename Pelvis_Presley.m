@@ -64,31 +64,31 @@ markedPoints = MarkPoints3D(vol,savepath, filename);
 
 distances = NaN(1,13);
    distances = [
-                norm([markedPoints(1, :) - markedPoints(5, :)]); % 1 to 7, INL hip bone length
-                norm([markedPoints(3, :) - markedPoints(4, :)]); % 5 to 6, SPL symphysis length
-                norm([markedPoints(3, :) - markedPoints(6, :)]); % 5 to 8, APL
-                norm([markedPoints(2, :) - markedPoints(3, :)]); % 4 to 5
-                norm([markedPoints(4, :) - markedPoints(5, :)]); % 6 to 7, IPL
-                norm([markedPoints(5, :) - markedPoints(6, :)]); % 8 to 7, AIL
-                norm([markedPoints(5, :) - markedPoints(9, :)]); % 11 to 7, ISW
-                norm([markedPoints(7, :) - markedPoints(8, :)]); % 9 to 10, obturator foramen length
-                norm([markedPoints(5, :) - markedPoints(11, :)]); % 13 to 7, TTT, iscial tuberosity to iscial tuberosity
-                norm([markedPoints(8, :) - markedPoints(10, :)]); % 12 to 10, FTF, foramen to foramen
+                norm([markedPoints(1, :) - markedPoints(5, :)]); % 1 to 5, INL hip bone length
+                norm([markedPoints(3, :) - markedPoints(4, :)]); % 3 to 4, SPL symphysis length
+                norm([markedPoints(3, :) - markedPoints(6, :)]); % 3 to 6, APL
+                norm([markedPoints(2, :) - markedPoints(3, :)]); % 2 to 3
+                norm([markedPoints(4, :) - markedPoints(5, :)]); % 4 to 5, IPL
+                norm([markedPoints(5, :) - markedPoints(6, :)]); % 5 to 6, AIL
+                norm([markedPoints(5, :) - markedPoints(9, :)]); % 5 to 9, ISW
+                norm([markedPoints(7, :) - markedPoints(8, :)]); % 7 to 8, obturator foramen length
+                norm([markedPoints(5, :) - markedPoints(11, :)]); % 5 to 11, IT2IT, iscial tuberosity to iscial tuberosity
+                norm([markedPoints(8, :) - markedPoints(10, :)]); % 8 to 10, OF2OF, foramen to foramen
             ]';
 
 distances_um = distances*voxelsize;
 
 results(KK).sample = fname
-results(KK).INL = distances_um(1)
-results(KK).SPL = distances_um(2)
-results(KK).APL = distances_um(3)
-results(KK).two2three = distances_um(4)
-results(KK).IPL = distances_um(5)
-results(KK).AIL = distances_um(6)
-results(KK).ISW = distances_um(7)
-results(KK).OFL = distances_um(8)
-results(KK).IT2IT = distances_um(9)
-results(KK).OF2OF = distances_um(10)
+results(KK).INL_1to5 = distances_um(1)
+results(KK).SPL_3to4 = distances_um(2)
+results(KK).APL_3to6 = distances_um(3)
+results(KK).dist2to3 = distances_um(4)
+results(KK).IPL_4to5 = distances_um(5)
+results(KK).AIL_5to6 = distances_um(6)
+results(KK).ISW_5to9 = distances_um(7)
+results(KK).OFL_7to8 = distances_um(8)
+results(KK).IT2IT_5to11 = distances_um(9)
+results(KK).OF2OF_8to10 = distances_um(10)
 
 end
 save([savepath 'Results.mat'],"results");
