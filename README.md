@@ -5,9 +5,9 @@
 
 ### File order is randomized and filenames are hidden from user during measurements to prevent bias.
 
-### Run script and choose folders with pelvic area cropped. Automatic thresholding using multithresh in matlab. Data should have different gray values for air, soft tissue and bone. Highest threshold (Bone) is extraced as isosurface for marking landmarks. Isosurface is presented to the user with 3D rotation always activated. Rotate to desired view and press button to mark corresponding landmark. If errors are made, just mark the point again by pressing the mark button. (old point will remain visible but only the last marked point is used). Finish with exit and save and wait for ext sample to start. 
+### Run script and choose folders with pelvic area cropped as image sequence (change correct fileformat in the script *.bmp, *.png, *.tiff). Automatic thresholding using multithresh in matlab. Data should have different gray values for air, soft tissue and bone. Highest threshold (Bone) is extraced as isosurface for marking landmarks. Isosurface is presented to the user with 3D rotation always activated. Rotate to desired view and press button to mark corresponding landmark. If errors are made, just mark the point again by pressing the mark button. (old point will remain visible but only the last marked point is used). Finish with exit and save and wait for the next sample to start. 
 
-### Result are saved as excel file to the parent folder of the chosen data. 
+### Results are saved as an excel file to the parent folder of the chosen data. 
 
 
 
@@ -45,8 +45,7 @@ Example Point 9 (Dorsal Point of the Ischial Ramus)
 Example Point 10 (Opposite Caudal Tip of the Obturator Foramen)
 
 ![Example Point 11](https://github.com/user-attachments/assets/1edb7a55-2088-4956-bc4a-6c1ac941c95e)
-Example Output Image
 Example Point 11 (Opposite Ischial Tuberosity)
 
 ![Result Image](https://github.com/user-attachments/assets/c58640b0-55f5-4c90-b7da-3c5b00cf7b94)
-
+Example Output Image
