@@ -15,7 +15,7 @@
 Lay down these points in to the 3D model of the data.
 
 ![Example Point 1](https://github.com/user-attachments/assets/05d94204-27e6-4a77-bd43-d0b614123291)
-figure text: example Point 1 (Caudal/Dorsal Iliac)
+Example Point 1 (Caudal/Dorsal Iliac)
 
 ![Example Point 2](https://github.com/user-attachments/assets/08daaa8a-6ec4-4993-ab3f-0dca065a7db5)
 Example Point 2 (Ilio-Pubic Eminence/Tubercle)
