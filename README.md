@@ -11,7 +11,7 @@
 
 
 
-![Pelvis landmarks](https://github.com/user-attachments/assets/0ce6d93f-48a6-4748-b623-059701386ad2)
+![Pelvis landmarks](https://github.com/user-attachments/assets/4c5fc6c8-afa7-4e6e-b932-ba4bfe6f1131)
 Lay down these points in to the 3D model of the data.
 
 ![Example Point 1](https://github.com/user-attachments/assets/05d94204-27e6-4a77-bd43-d0b614123291)
