@@ -40,8 +40,8 @@ flipH = 0;
 %Load volume using volumeloader
 [vol, ~, real_size_XY] = Universal_volumeloader_0234(selpath,binning,KK,length(folders),datatype,flipH);
 
-pos = strfind(folders(KK).name,'\');
-fname = folders(KK).name((max(pos)+1:end));
+pos = strfind( fname,'\');
+fname =  fname((max(pos)+1:end));
 
 vol = flip(vol, 3);
 
